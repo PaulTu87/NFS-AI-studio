@@ -1,0 +1,28 @@
+# NFS Studio AI Consulting
+
+> AI consulting agency based in Los Angeles, CA, helping businesses automate workflows, deploy AI voice agents, and build custom AI integrations.
+
+## Company
+
+- **Name:** NFS Studio AI Consulting
+- **Location:** Los Angeles, CA
+- **Phone:** 818-450-4594
+- **Email:** nfsaistudio@gmail.com
+- **Website:** https://nfsaistudio.com
+
+## Services
+
+- **AI Voice Agents** — Conversational AI phone agents that handle inbound/outbound calls, appointment scheduling, and customer support 24/7.
+- **Workflow Automation** — End-to-end automation of repetitive business processes using AI and no-code/low-code platforms.
+- **AI Chatbots** — Custom-trained chatbots for websites, CRMs, and messaging platforms that engage leads and answer questions instantly.
+- **Data Analytics** — AI-powered dashboards and reporting pipelines that surface actionable insights from your business data.
+- **Custom AI Integrations** — Connecting AI models and automation tools to existing software stacks (CRMs, ERPs, APIs).
+- **AI Training** — Workshops and one-on-one sessions to upskill teams on prompt engineering, AI tools, and automation best practices.
+
+## Target Clients
+
+Small and mid-sized businesses in Los Angeles and across the US that want to reduce manual labor, improve customer experience, and scale operations with AI.
+
+## How to Engage
+
+Contact NFS Studio via email at nfsaistudio@gmail.com or by phone at 818-450-4594 to schedule a free consultation. The team assesses your current workflows and recommends a tailored AI implementation roadmap.

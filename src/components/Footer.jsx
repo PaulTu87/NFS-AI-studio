@@ -133,7 +133,7 @@ export default function Footer() {
           style={{ borderTop: "1px solid rgba(255,255,255,0.07)" }}
         >
           <p className="text-xs text-slate-500">
-            © {new Date().getFullYear()} NFS Studio. All rights reserved.
+            © 2024 NFS Studio. All rights reserved.
           </p>
           <div className="flex gap-5">
             {["Privacy Policy", "Terms of Service"].map((t) => (
