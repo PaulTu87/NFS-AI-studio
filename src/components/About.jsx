@@ -79,22 +79,28 @@ export default function About() {
             ABOUT NFS STUDIO
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-6 leading-tight">
-            We combine{" "}
-            <span className="gradient-text">technical expertise</span>
-            {" "}with business understanding
+            Enterprise-grade AI.{" "}
+            <span className="gradient-text">Small business</span>
+            {" "}pricing.
           </h2>
+          <p className="text-slate-400 text-lg leading-relaxed mb-4">
+            NFS Studio was founded in 2024 in Los Angeles by Paul — a software engineer with 5+ years
+            of hands-on experience building AI and automation systems. After years of implementing
+            enterprise AI for larger organizations, Paul launched NFS Studio with one mission: to give
+            small and mid-sized LA businesses access to the same AI technology that Fortune 500 companies
+            use — without the enterprise price tag or six-month timelines.
+          </p>
           <p className="text-slate-400 text-lg leading-relaxed mb-6">
-            NFS Studio is an AI consulting firm based in Los Angeles. We work with
-            small and mid-sized businesses to implement artificial intelligence that
-            solves real operational challenges — not AI for the sake of AI.
+            We don't sell AI for the sake of AI. Every solution we build has to pass one test: does it
+            save you time, make you money, or make your customers happier? If not, we don't build it.
           </p>
 
           {/* Stats row */}
           <div className="grid grid-cols-3 gap-4 mb-8">
             {[
-              { num: "5+", label: "Years Experience" },
+              { num: "5+", label: "Years in AI & Tech" },
               { num: "50+", label: "Projects Completed" },
-              { num: "100%", label: "Satisfaction" },
+              { num: "2024", label: "Founded" },
             ].map((s) => (
               <div key={s.label} className="text-center py-4 rounded-xl"
                 style={{ background: "rgba(0,188,212,0.06)", border: "1px solid rgba(0,188,212,0.15)" }}>

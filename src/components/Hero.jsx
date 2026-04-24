@@ -92,15 +92,15 @@ export default function Hero() {
           </div>
 
           <h1 ref={headingRef} className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight mb-6 text-white">
-            Using{" "}
-            <span className="gradient-text">Artificial Intelligence</span>
-            {" "}to Deliver Real{" "}
-            <span className="gradient-text">Business Results</span>
+            Practical{" "}
+            <span className="gradient-text">AI Solutions</span>
+            {" "}for Los Angeles{" "}
+            <span className="gradient-text">Small Businesses</span>
           </h1>
 
           <p ref={subRef} className="text-lg text-slate-400 mb-10 max-w-xl leading-relaxed">
-            We help modern companies automate workflows, improve customer experience,
-            and grow faster with smart AI solutions tailored to your business.
+            We help LA businesses automate workflows, cut operating costs, and grow faster
+            with AI built around your actual processes — not generic templates.
           </p>
 
           <div ref={ctaRef} className="flex flex-col sm:flex-row gap-4">

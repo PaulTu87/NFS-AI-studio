@@ -78,11 +78,11 @@ export default function Contact() {
             GET IN TOUCH
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-4">
-            Ready to{" "}
-            <span className="gradient-text">Transform Your Business?</span>
+            Ready to See Where AI Fits{" "}
+            <span className="gradient-text">Your Business?</span>
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto text-lg">
-            Book a free consultation. No commitment. We'll identify exactly where AI can help you most.
+            Book a free 30-minute AI Audit call. We'll look at your workflows, identify the top 2–3 automation opportunities, and give you an honest recommendation — even if that means 'you don't need AI yet.'
           </p>
         </div>
 

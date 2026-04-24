@@ -30,14 +30,19 @@ const socials = [
 
 const links = {
   Services: [
-    "AI Audit & Strategy",
-    "Business Process Automation",
-    "AI Chatbots & Voice Agents",
-    "Data Analytics & Insights",
-    "Custom AI Integrations",
-    "AI Training & Support",
+    { label: "AI Audit & Strategy", href: "#services" },
+    { label: "Business Process Automation", href: "#services" },
+    { label: "AI Chatbots & Voice Agents", href: "#services" },
+    { label: "Data Analytics & Insights", href: "#services" },
+    { label: "Custom AI Integrations", href: "#services" },
+    { label: "AI Training & Support", href: "#services" },
   ],
-  Company: ["About Us", "Our Process", "Case Studies", "Contact"],
+  Company: [
+    { label: "About Us", href: "#about" },
+    { label: "Our Process", href: "#process" },
+    { label: "Case Studies", href: "#results" },
+    { label: "Contact", href: "#contact" },
+  ],
 };
 
 export default function Footer() {
@@ -111,14 +116,14 @@ export default function Footer() {
               <h4 className="text-xs font-bold tracking-widest text-white mb-5 uppercase">{heading}</h4>
               <ul className="flex flex-col gap-3">
                 {items.map((item) => (
-                  <li key={item}>
+                  <li key={item.label}>
                     <a
-                      href="#"
+                      href={item.href}
                       className="text-sm text-slate-400 transition-colors duration-200"
                       onMouseEnter={(e) => (e.target.style.color = "#00bcd4")}
                       onMouseLeave={(e) => (e.target.style.color = "")}
                     >
-                      {item}
+                      {item.label}
                     </a>
                   </li>
                 ))}
